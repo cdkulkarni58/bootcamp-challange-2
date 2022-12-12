@@ -15,7 +15,7 @@ body {
   text-align: center;
   color: white;
 } 
- */
+ 
 
 /* Bottom left text 
 .bottom-left {
@@ -31,12 +31,12 @@ body {
   left: 16px;
 }
 
-/* Top right text 
+/* Top right text */
 .top-right {
   position: absolute;
-  top: 8px;
-  right: 16px;
-} */
+  top: 100px;
+  right: 400px;
+} 
 
 /* Bottom right text 
 .bottom-right {
@@ -54,9 +54,15 @@ body {
 }
 */
 
-h1,
-h2,
-h3,
+h1 { text-align: left;
+  margin: 0;
+}
+h2{ text-align: center;
+  margin: 0;
+}
+h3{ text-align: right;
+  margin: 0;
+}
 h4,
 h5,
 h6 { text-align: left;
